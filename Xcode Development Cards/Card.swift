@@ -16,13 +16,13 @@ struct Card: View {
     var cardModel: CardProps
     var body: some View {
         ZStack {
-            Image("developer-no1")
+            Image(cardModel.imageName)
                 .opacity(fadeIn ? 1.0 : 0.0)
             VStack {
-                Text("title")
+                Text(cardModel.title)
                     .font(.title)
                     .foregroundColor(.white)
-                Text("description")
+                Text(cardModel.headline)
                     .fontWeight(.light)
                     .foregroundColor(.white)
                     .italic()
@@ -30,7 +30,7 @@ struct Card: View {
             .offset(y: moveDownward ? -218 : -300)
 
             Button(action: { print("tapped") }) {
-                Text("button")
+                Text(cardModel.callToAction.uppercased())
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
                 Image(systemName: "arrow.right.circle")
