@@ -29,7 +29,7 @@ struct Card: View {
             }
             .offset(y: moveDownward ? -218 : -300)
 
-            Button(action: { print("tapped") }) {
+            Button(action: { self.showAlert.toggle() }) {
                 Text(cardModel.callToAction.uppercased())
                     .fontWeight(.heavy)
                     .foregroundColor(.white)
@@ -54,6 +54,9 @@ struct Card: View {
                 self.moveUpward.toggle()
                 self.moveDownward.toggle()
             }
+        }
+        .alert(isPresented: $showAlert) {
+            Alert(title: Text(cardModel.title), message: Text(cardModel.message), dismissButton: .default(Text("OK")))
         }
     }
 }
