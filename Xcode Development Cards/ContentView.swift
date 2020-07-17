@@ -9,8 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
+    var cardsProps: [CardProps] = cardData
     var body: some View {
-        Text("Hello, World!")
+        ScrollView(.horizontal, showsIndicators: false) {
+            HStack(alignment: .center, spacing: 10) {
+                ForEach(cardsProps) {eachCard in
+                    Card(cardModel: eachCard)
+                }
+            }
+        }
+    .padding(20)
     }
 }
 
