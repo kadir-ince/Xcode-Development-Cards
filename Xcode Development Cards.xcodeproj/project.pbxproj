@@ -14,6 +14,9 @@
 		54B6D2E424C1F4B3009A4FE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B6D2E324C1F4B3009A4FE1 /* Preview Assets.xcassets */; };
 		54B6D2E724C1F4B3009A4FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B6D2E524C1F4B3009A4FE1 /* LaunchScreen.storyboard */; };
 		54B6D2EF24C1F55F009A4FE1 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54B6D2EE24C1F55E009A4FE1 /* sound-chime.mp3 */; };
+		54B6D2F124C1F623009A4FE1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B6D2F024C1F623009A4FE1 /* Card.swift */; };
+		54B6D2F324C1F69F009A4FE1 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B6D2F224C1F69F009A4FE1 /* CardModel.swift */; };
+		54B6D2F524C1F6CF009A4FE1 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B6D2F424C1F6CF009A4FE1 /* CardData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		54B6D2E624C1F4B3009A4FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54B6D2E824C1F4B3009A4FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54B6D2EE24C1F55E009A4FE1 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
+		54B6D2F024C1F623009A4FE1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		54B6D2F224C1F69F009A4FE1 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		54B6D2F424C1F6CF009A4FE1 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				54B6D2E524C1F4B3009A4FE1 /* LaunchScreen.storyboard */,
 				54B6D2E824C1F4B3009A4FE1 /* Info.plist */,
 				54B6D2E224C1F4B3009A4FE1 /* Preview Content */,
+				54B6D2F024C1F623009A4FE1 /* Card.swift */,
+				54B6D2F224C1F69F009A4FE1 /* CardModel.swift */,
+				54B6D2F424C1F6CF009A4FE1 /* CardData.swift */,
 			);
 			path = "Xcode Development Cards";
 			sourceTree = "<group>";
@@ -153,6 +162,9 @@
 				54B6D2DB24C1F4B2009A4FE1 /* AppDelegate.swift in Sources */,
 				54B6D2DD24C1F4B2009A4FE1 /* SceneDelegate.swift in Sources */,
 				54B6D2DF24C1F4B2009A4FE1 /* ContentView.swift in Sources */,
+				54B6D2F524C1F6CF009A4FE1 /* CardData.swift in Sources */,
+				54B6D2F124C1F623009A4FE1 /* Card.swift in Sources */,
+				54B6D2F324C1F69F009A4FE1 /* CardModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
