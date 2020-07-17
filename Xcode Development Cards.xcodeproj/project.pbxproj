@@ -16,6 +16,8 @@
 		54B6D2F124C1F623009A4FE1 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B6D2F024C1F623009A4FE1 /* Card.swift */; };
 		54B6D2F324C1F69F009A4FE1 /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B6D2F224C1F69F009A4FE1 /* CardModel.swift */; };
 		54B6D2F524C1F6CF009A4FE1 /* CardData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 54B6D2F424C1F6CF009A4FE1 /* CardData.swift */; };
+		54B6D2F824C2026D009A4FE1 /* Xcode.gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 54B6D2F724C2026D009A4FE1 /* Xcode.gitignore */; };
+		54B6D2FA24C20285009A4FE1 /* whatIs.gif in Resources */ = {isa = PBXBuildFile; fileRef = 54B6D2F924C20285009A4FE1 /* whatIs.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,9 @@
 		54B6D2F024C1F623009A4FE1 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 		54B6D2F224C1F69F009A4FE1 /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		54B6D2F424C1F6CF009A4FE1 /* CardData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardData.swift; sourceTree = "<group>"; };
+		54B6D2F624C200DF009A4FE1 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		54B6D2F724C2026D009A4FE1 /* Xcode.gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Xcode.gitignore; sourceTree = "<group>"; };
+		54B6D2F924C20285009A4FE1 /* whatIs.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = whatIs.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +53,9 @@
 			children = (
 				54B6D2D924C1F4B2009A4FE1 /* Xcode Development Cards */,
 				54B6D2D824C1F4B2009A4FE1 /* Products */,
+				54B6D2F624C200DF009A4FE1 /* README.md */,
+				54B6D2F724C2026D009A4FE1 /* Xcode.gitignore */,
+				54B6D2F924C20285009A4FE1 /* whatIs.gif */,
 			);
 			sourceTree = "<group>";
 		};
@@ -142,9 +150,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				54B6D2F824C2026D009A4FE1 /* Xcode.gitignore in Resources */,
 				54B6D2E724C1F4B3009A4FE1 /* LaunchScreen.storyboard in Resources */,
 				54B6D2E424C1F4B3009A4FE1 /* Preview Assets.xcassets in Resources */,
 				54B6D2E124C1F4B3009A4FE1 /* Assets.xcassets in Resources */,
+				54B6D2FA24C20285009A4FE1 /* whatIs.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
