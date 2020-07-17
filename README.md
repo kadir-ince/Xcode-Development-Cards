@@ -2,7 +2,7 @@
 
 ## What's Like?
 <p align="center">
-  <img src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/whatIs.gif" alt="how to working gif">
+  <img height=630 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/whatIs.gif" alt="how to working gif">
 </p>
 
 ## How Can I Open On My Mac?  🔨
