@@ -13,6 +13,7 @@
 		54B6D2E124C1F4B3009A4FE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B6D2E024C1F4B3009A4FE1 /* Assets.xcassets */; };
 		54B6D2E424C1F4B3009A4FE1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54B6D2E324C1F4B3009A4FE1 /* Preview Assets.xcassets */; };
 		54B6D2E724C1F4B3009A4FE1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54B6D2E524C1F4B3009A4FE1 /* LaunchScreen.storyboard */; };
+		54B6D2EF24C1F55F009A4FE1 /* sound-chime.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 54B6D2EE24C1F55E009A4FE1 /* sound-chime.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		54B6D2E324C1F4B3009A4FE1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		54B6D2E624C1F4B3009A4FE1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54B6D2E824C1F4B3009A4FE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		54B6D2EE24C1F55E009A4FE1 /* sound-chime.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "sound-chime.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				54B6D2DC24C1F4B2009A4FE1 /* SceneDelegate.swift */,
 				54B6D2DE24C1F4B2009A4FE1 /* ContentView.swift */,
 				54B6D2E024C1F4B3009A4FE1 /* Assets.xcassets */,
+				54B6D2EE24C1F55E009A4FE1 /* sound-chime.mp3 */,
 				54B6D2E524C1F4B3009A4FE1 /* LaunchScreen.storyboard */,
 				54B6D2E824C1F4B3009A4FE1 /* Info.plist */,
 				54B6D2E224C1F4B3009A4FE1 /* Preview Content */,
@@ -134,6 +137,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				54B6D2E724C1F4B3009A4FE1 /* LaunchScreen.storyboard in Resources */,
+				54B6D2EF24C1F55F009A4FE1 /* sound-chime.mp3 in Resources */,
 				54B6D2E424C1F4B3009A4FE1 /* Preview Assets.xcassets in Resources */,
 				54B6D2E124C1F4B3009A4FE1 /* Assets.xcassets in Resources */,
 			);
