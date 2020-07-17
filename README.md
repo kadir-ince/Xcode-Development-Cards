@@ -1,5 +1,6 @@
-# Apple Development Enviroment  Promotion Cards (SwiftUI)
-
+# Apple Development Enviroment Presentation In Cards (SwiftUI)
+Presentation of Apple Development Environment in Cards
+Basic card app with SwiftUI
 ## What's Like?
 <p align="center">
   <img height=630 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/whatIs.gif" alt="how to working gif">
