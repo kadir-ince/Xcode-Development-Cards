@@ -9,11 +9,15 @@
 import SwiftUI
 
 struct Card: View {
+    @State private var fadeIn: Bool = false
+    @State private var moveDownward: Bool = false
+    @State private var moveUpward: Bool = false
+    @State private var showAlert: Bool = false
     var cardModel: CardProps
     var body: some View {
         ZStack {
             Image("developer-no1")
-
+                .opacity(fadeIn ? 1.0 : 0.0)
             VStack {
                 Text("title")
                     .font(.title)
@@ -23,7 +27,7 @@ struct Card: View {
                     .foregroundColor(.white)
                     .italic()
             }
-            .offset(y: -218)
+            .offset(y: moveDownward ? -218 : -300)
 
             Button(action: { print("tapped") }) {
                 Text("button")
@@ -36,12 +40,21 @@ struct Card: View {
             .padding()
             .background(LinearGradient(gradient: Gradient(colors: cardModel.gradientColors), startPoint: .leading, endPoint: .trailing))
             .clipShape(Capsule())
-            .offset(y: 210)
+            .offset(y: moveUpward ? 210 : 300)
             .shadow(color: Color("ColorShadow"), radius: 6, x: 0, y: 3)
         }
         .frame(width: 335, height: 545)
         .background(LinearGradient(gradient: Gradient(colors: cardModel.gradientColors), startPoint: .top, endPoint: .bottom))
         .cornerRadius(16)
+        .onAppear {
+            withAnimation(.linear(duration: 1.2)) {
+                self.fadeIn.toggle()
+            }
+            withAnimation(.linear(duration: 0.8)) {
+                self.moveUpward.toggle()
+                self.moveDownward.toggle()
+            }
+        }
     }
 }
 

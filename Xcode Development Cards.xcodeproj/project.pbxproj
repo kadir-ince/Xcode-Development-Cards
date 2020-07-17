@@ -67,14 +67,14 @@
 				54B6D2DA24C1F4B2009A4FE1 /* AppDelegate.swift */,
 				54B6D2DC24C1F4B2009A4FE1 /* SceneDelegate.swift */,
 				54B6D2DE24C1F4B2009A4FE1 /* ContentView.swift */,
+				54B6D2F024C1F623009A4FE1 /* Card.swift */,
+				54B6D2F224C1F69F009A4FE1 /* CardModel.swift */,
+				54B6D2F424C1F6CF009A4FE1 /* CardData.swift */,
 				54B6D2E024C1F4B3009A4FE1 /* Assets.xcassets */,
 				54B6D2EE24C1F55E009A4FE1 /* sound-chime.mp3 */,
 				54B6D2E524C1F4B3009A4FE1 /* LaunchScreen.storyboard */,
 				54B6D2E824C1F4B3009A4FE1 /* Info.plist */,
 				54B6D2E224C1F4B3009A4FE1 /* Preview Content */,
-				54B6D2F024C1F623009A4FE1 /* Card.swift */,
-				54B6D2F224C1F69F009A4FE1 /* CardModel.swift */,
-				54B6D2F424C1F6CF009A4FE1 /* CardData.swift */,
 			);
 			path = "Xcode Development Cards";
 			sourceTree = "<group>";
