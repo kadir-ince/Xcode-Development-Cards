@@ -1,10 +1,10 @@
 # Apple Development Enviroment Presentation In Cards (SwiftUI)
-Presentation of Apple Development Environment in Cards
-Basic card app with SwiftUI
+Presentation of Apple Development Environment in Cards. <br>
+This app working on: iPhone, iPad, macOS
 ## What's Like?
-<p align="center">
-  <img height=630 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/whatIs.gif" alt="how to working gif">
-</p>
+| iPhone                                                                                                                       | iPad                                                                                                                           | macOS                                                                                                                           |
+|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| <img height=430 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/whatIs.gif" alt="how to working on iPhone"> | <img height=430 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/ipad.gif" alt="how to working on iPad"> | <img height=430 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/desktop.gif" alt="how to working on macOS"> |
 
 ## How Can I Open On My Mac?  🔨
 
