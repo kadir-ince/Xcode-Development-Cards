@@ -2,10 +2,22 @@
 Presentation of Apple Development Environment in Cards. <br>
 This app working on: iPhone, iPad, macOS
 ## What's Like?
+
+
+  
 | iPhone                                                                                                                       | iPad                                                                                                                           
 |------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
 | <img height=530 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/whatIs.gif" alt="how to working on iPhone"> | <img height=530 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/ipad.gif" alt="how to working on iPad"> |
 
+<center > 
+
+| macOS |
+| -- |
+|  <img height=530 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/desktop.gif" alt="how to working on macOS"> | 
+
+</center>
+  
+  
 ## How Can I Open On My Mac?  🔨
 
 If you want to open it on your Mac, open Terminal and write respectively below codes
