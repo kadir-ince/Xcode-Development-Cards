@@ -7,13 +7,13 @@ This app working on: iPhone, iPad, macOS
   
 | iPhone                                                                                                                       | iPad                                                                                                                           
 |------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| <img height=530 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/whatIs.gif" alt="how to working on iPhone"> | <img height=530 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/ipad.gif" alt="how to working on iPad"> |
+| <img height=430 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/whatIs.gif" alt="how to working on iPhone"> | <img height=430 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/ipad.gif" alt="how to working on iPad"> |
 
 <center > 
 
 | macOS |
 | -- |
-|  <img height=530 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/desktop.gif" alt="how to working on macOS"> | 
+|  <img height=430 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/desktop.gif" alt="how to working on macOS"> | 
 
 </center>
   
