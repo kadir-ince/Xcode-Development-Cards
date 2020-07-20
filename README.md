@@ -2,9 +2,9 @@
 Presentation of Apple Development Environment in Cards. <br>
 This app working on: iPhone, iPad, macOS
 ## What's Like?
-| iPhone                                                                                                                       | iPad                                                                                                                           | macOS                                                                                                                           |
-|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
-| <img height=430 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/whatIs.gif" alt="how to working on iPhone"> | <img height=430 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/ipad.gif" alt="how to working on iPad"> | <img height=430 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/desktop.gif" alt="how to working on macOS"> |
+| iPhone                                                                                                                       | iPad                                                                                                                           
+|------------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------|
+| <img height=530 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/whatIs.gif" alt="how to working on iPhone"> | <img height=530 src="https://github.com/kadir-ince/Xcode-Development-Cards/blob/master/ipad.gif" alt="how to working on iPad"> |
 
 ## How Can I Open On My Mac?  🔨
 
